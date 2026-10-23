@@ -1,0 +1,52 @@
+.upload-form {
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 16px;
+  background: #fff;
+  color: #213547;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.error {
+  color: #d93025;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* react-easy-crop cần khung có vị trí và chiều cao cố định */
+.crop-area {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background: #333;
+}
+
+.zoom {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.zoom input {
+  flex: 1;
+}
+
+.preview img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.upload-form button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
